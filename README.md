@@ -7,3 +7,5 @@ This project involves the development and deployment of a speech-to-text transla
 - Azure account
 - Docker installed on your local machine
 - Azure CLI installed on your local machine
+
+## By Ilewa AI team
