@@ -7,11 +7,11 @@ Le projet est ouvert à n'importe qui et peut etre utilisé par n'importe qui.
 Pour pouvoir l'utiliser, cloner d'abord le projet.Ensuite cloner le répertoire du modèle bge-m3 sur huggingface et placer le répertoire à 
 la racine du répertoire du projet Line Embeddings. Ensuite executer la commande :
 ```
-docker build -t LineEmbeddings .
+docker build -t lineembeddings .
 ```
 ensuite executer la commande :
 ```
-docker run -d --name ariel  -p 8000:8000 LineEmbeddings
+docker run -d --name ariel  -p 8000:8000 lineembeddings
 ```
 Ensuite accéder à l'interface web de l'api 
 ```
