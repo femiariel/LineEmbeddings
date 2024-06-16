@@ -1,11 +1,7 @@
-# Speech to Text Translation API for FONGBE Language
+# Line Embeddings
 
 ## Overview
-This project involves the development and deployment of a speech-to-text translation API for the FONGBE language. The API is deployed on Azure Container Instances using Docker.
 
-## Prerequisites
-- Azure account
-- Docker installed on your local machine
-- Azure CLI installed on your local machine
-
-## By Ilewa AI team
+Le but de ce projet est la mise en place d'un serveur d'embeddings qui prend en entrée un fichier excel et renvoie une représentation vectorielle de chaque ligne . Ce serveur est déployé sur une VM GCP . Ainsi nous pouvons requeter l'API et obtenir les résultats au format json et les utiliser dans le cadre de clusterinf basé sur les embeddings par exemple.
+Le projet est ouvert à n'importe qui et peut etre utilisé par n'importe qui.
+Pour pouvoir l'utiliser, cloner d'abord le projet. Ensuuite executer la commande :
