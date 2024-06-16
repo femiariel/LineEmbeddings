@@ -6,11 +6,16 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+
 COPY . .
 
 FROM python:3.9-slim AS runtime
 
 WORKDIR /usr/src/app
+
+# Copier le modèle téléchargé dans le conteneur
+COPY bge-m3 /usr/src/app/bge-m3
+
 
 COPY --from=build /usr/local/lib/python3.9/site-packages /usr/local/lib/python3.9/site-packages
 COPY --from=build /usr/local/bin /usr/local/bin

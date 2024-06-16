@@ -1,8 +1,10 @@
 fastapi
 uvicorn
 torch
-torchaudio
 transformers
-librosa
 numpy
-soundfile
+pyod
+scikit-learn
+yellowbrick
+pandas
+sentence-transformers
